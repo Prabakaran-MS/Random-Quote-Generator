@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Generator</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
 </head>
 
 <body>
-    <div class="quote-container">
-
-        <p id="quoteText">Loading...</p>
-        <p id="quoteAuthor"></p>
+    <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+        <blockquote class="blockquote text-center border border-2 rounded p-3 shadow ">
+            <p id="quoteText">Loading...</p>
+            <footer id="quoteAuthor" class="blockquote-footer"></footer>
+        </blockquote>
+        <button class="btn btn-primary" onclick="generateQuote()">New Quote</button>
     </div>
-    <button onclick="generateQuote()">New Quote</button>
-
     <script src="./script.js"></script>
 </body>
 

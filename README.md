@@ -7,9 +7,6 @@ This is a simple web application that generates random quotes using JavaScript. 
 - [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Built With](#built-with)
-- [License](#license)
 
 ## Demo
 

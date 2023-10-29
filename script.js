@@ -22,7 +22,7 @@ function displayRandomQuote(data) {
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomData = data[randomIndex];
     quote.textContent = randomData.Quote;
-    author.textContent = `- ${randomData.Author}`;
+    author.textContent = randomData.Author;
 }
 
 function generateQuote() {
